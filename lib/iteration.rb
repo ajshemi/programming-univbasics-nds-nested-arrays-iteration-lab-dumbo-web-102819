@@ -33,7 +33,7 @@ def total_even_pairs(src)
     end
     sum
   end
-  new_array.inject {|sum| sum+n}
+  new_array.inject {|sum,n| sum+n}
   
   #result
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
