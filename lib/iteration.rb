@@ -32,7 +32,7 @@ def total_even_pairs(src)
       #result+=(array[0]+array[1])
     end
   end
-  new_array.sum
+  new_array.inject() {}
   #result
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # if both numbers in the pair are even, then add both those numbers to the
