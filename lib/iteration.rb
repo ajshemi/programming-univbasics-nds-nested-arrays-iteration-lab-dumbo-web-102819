@@ -26,7 +26,7 @@ end
 
 def total_even_pairs(src)
   #result=0
-  new_array=src.map do |array|
+  new_array=src.map! do |array|
     if array[0]%2==0 and array[1]%2==0
       sum=array[0]+array[1]
       #result+=(array[0]+array[1])
