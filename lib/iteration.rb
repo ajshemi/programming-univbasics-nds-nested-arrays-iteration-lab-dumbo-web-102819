@@ -25,13 +25,15 @@ def find_greater_pair(src)
 end
 
 def total_even_pairs(src)
-  result=0
+  #result=0
   new_array=src.map do |array|
     if array[0]%2==0 and array[1]%2==0
-      result+=(array[0]+array[1])
+      array[0]+array[1]
+      #result+=(array[0]+array[1])
     end
   end
-  result
+  new_array.sum
+  #result
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # if both numbers in the pair are even, then add both those numbers to the
   # total
