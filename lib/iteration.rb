@@ -30,6 +30,8 @@ def total_even_pairs(src)
     if array[0]%2==0 and array[1]%2==0
       array[0]+array[1]
       #result+=(array[0]+array[1])
+    else
+      0
     end
   end
   new_array.inject {|sum,n| sum+n}
